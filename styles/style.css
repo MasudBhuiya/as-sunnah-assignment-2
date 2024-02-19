@@ -87,7 +87,7 @@ nav{
 /* about style  */
 .about{
     max-width: 1400px;
-    margin:120px auto;
+    margin:120px auto 0;
     display: flex;
     padding:0 20px ;
     align-items: center;
@@ -101,6 +101,7 @@ nav{
 .about-title{
     font-size: 50px;
     margin: 15px 0;
+    color: #1A2855;
 }
 .about-2 h3{
     font-size: 30px;
@@ -110,4 +111,85 @@ nav{
 .about-img{
     max-width: 430px;
     border-radius: 10px;
+}
+
+/* carts style  */
+.cart-container{
+    margin: 120px 0;
+    background-color: #f8f7f7;
+}
+.carts{
+    max-width: 1400px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding:40px 20px ;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.carts-sub-title{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #FAB011;
+}
+.carts-title{
+    font-size: 40px;
+    text-align: center;
+    color: #1A2855;
+}
+.cart{
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(243, 241, 241);
+    border-radius: 10px;
+}
+.cart-image{
+    position: relative;
+
+}
+.love{
+    background: #e9e7e7;
+    padding: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    margin: 8px;
+
+}
+.cart-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.cart-title{
+    margin: 8px 0;
+    color: #1A2855;
+    font-size: 25px;
+}
+.stars{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: #FAB011;
+}
+.cart-btn{
+    color: #1A2855;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    background: #FAB011;
+    border: none;
+    color: white;
+}
+.add-cart{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.price{
+    color:#FAB011;
 }
