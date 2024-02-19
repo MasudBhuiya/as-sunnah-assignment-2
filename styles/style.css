@@ -193,3 +193,40 @@ nav{
 .price{
     color:#FAB011;
 }
+
+
+/* customers say style  */
+.customers{
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.customer-reviews{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.review-1{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 20px;
+}
+.users-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.users{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.customer-img{
+    border-radius: 50%;
+    height: 70px;
+}
+.quote{
+    font-size: 90px;
+    color: gray;
+}
