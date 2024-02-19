@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+}
+.nav-img{
+    height: 30px;
+    width: 30px;
+}
+.nav-1 h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FAB011;
+}
+
+.lists{
+    display: flex;
+    gap: 30px;
+}
+.lists a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.nav-icons{
+    display: flex;
+    gap: 10px;
+}
+.nav-icons i{
+    background-color: rgb(239, 239, 241);
+    padding: 8px;
+    border-radius: 50%;
+}
