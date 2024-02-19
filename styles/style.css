@@ -41,3 +41,44 @@ nav{
     padding: 8px;
     border-radius: 50%;
 }
+
+
+/* banner style  */
+.banner{
+    max-width: 1440px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px ;
+    align-items: center;
+}
+.banner h3{
+    font-size: 30px;
+    color: #FAB011;
+}
+.banner-title{
+    font-size: 80px;
+    color: #1A2855;
+    margin: 10px 0;
+}
+.banner-sub-title{
+    font-size: 18px;
+    font-weight: 800;
+    max-width: 420px;
+}
+.banner-btn{
+    color: #1A2855;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    background: #FAB011;
+    border: none;
+    color: white;
+}
+.banner-btn:hover{
+    background: #ecbc53;
+}
+.banner-img{
+    width: 620px;
+}
