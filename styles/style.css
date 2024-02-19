@@ -3,7 +3,7 @@
     padding: 0;
 }
 nav{
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ nav{
 
 /* banner style  */
 .banner{
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 50px auto 0;
     display: flex;
     justify-content: space-between;
@@ -70,15 +70,44 @@ nav{
     color: #1A2855;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 25px;
     font-weight: bold;
     background: #FAB011;
     border: none;
     color: white;
 }
 .banner-btn:hover{
-    background: #ecbc53;
+    background: #f0c66c;
 }
 .banner-img{
-    width: 620px;
+    width: 560px;
+}
+
+
+/* about style  */
+.about{
+    max-width: 1400px;
+    margin:120px auto;
+    display: flex;
+    padding:0 20px ;
+    align-items: center;
+}
+.about-1{
+    width: 40%;
+}
+.about-2{
+    width: 60%;
+}
+.about-title{
+    font-size: 50px;
+    margin: 15px 0;
+}
+.about-2 h3{
+    font-size: 30px;
+    color: #FAB011;
+}
+
+.about-img{
+    max-width: 430px;
+    border-radius: 10px;
 }
