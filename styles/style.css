@@ -115,7 +115,7 @@ nav{
 
 /* carts style  */
 .cart-container{
-    margin: 120px 0;
+    margin: 120px 0 80px;
     background-color: #f8f7f7;
 }
 .carts{
@@ -143,8 +143,14 @@ nav{
     width: 400px;
     padding: 20px;
     background-color: white;
-    box-shadow: 5px 5px 5px 5px rgb(243, 241, 241);
-    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgb(128, 128, 128, 0.7);
+    border-radius: 20px;
+}
+.cart:hover{
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(247, 241, 207);
+    box-shadow: 0px 8px 16px 0px #FAB011;
 }
 .cart-image{
     position: relative;
@@ -205,10 +211,9 @@ nav{
     display: flex;
     gap: 40px;
     margin-top: 70px;
-    margin-bottom: 20px;
 }
 .review-1{
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 0px 8px 16px 0px gray;
     padding: 20px;
 }
 .users-first{
@@ -230,3 +235,96 @@ nav{
     font-size: 90px;
     color: gray;
 }
+
+
+/* services style  */
+.service-container{
+    margin-top: 100px;
+    max-width: 1400px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+.services{
+    display: flex;
+    gap: 30px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.service-title{
+    margin: 15px 0;
+}
+.service-sub-title{
+    max-width: 80%;
+    text-align: center;
+}
+
+
+/* order style  */
+.order-container{
+    background-color: #f8f7f7;
+    padding: 40px 0;
+}
+.orders{
+    max-width: 1400px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+
+}
+.order-name{
+    font-size: 19px;
+}
+.order{
+   display:flex;
+   justify-content: space-between;
+   gap: 80px;
+   width: 1200px;
+   margin: 20px auto 0;
+}
+.single-input{
+    width: 100%;
+}
+
+.input, .message{
+    width: 100%;
+    padding: 15px 8px;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 8px;
+
+
+}
+
+/* footer style  */
+
+.footer{
+    background-color:#1A2855;
+    padding: 50px 0;
+    color: white;
+}
+.footer-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container h2{
+    font-size: 25px;
+}
+.footer-container p{
+    margin: 8px 0;
+    font-size: 18px;
+}
+.contacts{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
