@@ -32,6 +32,9 @@ nav{
     text-decoration: none;
     color: black;
 }
+.lists a:hover{
+    color: blue;
+}
 .nav-icons{
     display: flex;
     gap: 10px;
